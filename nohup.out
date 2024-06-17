@@ -1,0 +1,1221 @@
+
+> chatbot@0.1.0 start /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend
+> export PORT=3008 && react-scripts start
+
+(node:9202) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:9202) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 289:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 321:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 355:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 550:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 289:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 321:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 355:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 550:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+webpack compiled with 1 warning
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 289:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 321:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 355:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 550:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 289:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 321:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 355:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 550:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+webpack compiled with 1 warning
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! chatbot@0.1.0 start: `export PORT=3008 && react-scripts start`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the chatbot@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-19T11_35_29_932Z-debug.log
+
+> chatbot@0.1.0 start /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend
+> export PORT=3008 && react-scripts start
+
+(node:157590) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:157590) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view chatbot in the browser.
+
+  Local:            http://localhost:3008
+  On Your Network:  http://172.31.6.64:3008
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! chatbot@0.1.0 start: `export PORT=3008 && react-scripts start`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the chatbot@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-20T06_41_09_817Z-debug.log
+
+> chatbot@0.1.0 start /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend
+> export PORT=3008 && react-scripts start
+
+Something is already running on port 3008.
+
+> chatbot@0.1.0 start /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend
+> export PORT=3008 && react-scripts start
+
+(node:536897) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:536897) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view chatbot in the browser.
+
+  Local:            http://localhost:3008
+  On Your Network:  http://172.31.26.35:3008
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> chatbot@0.1.0 start /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend
+> export PORT=3008 && react-scripts start
+
+(node:2174170) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2174170) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view chatbot in the browser.
+
+  Local:            http://localhost:3008
+  On Your Network:  http://172.31.26.35:3008
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+URIError: Failed to decode param '/%80../%80../%80../%80../%80../%80../windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%80../%80../%80../%80../%80../%80../winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./%c0.%c0./winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/%c0%2e%c0%2e/winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/windows/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/winnt/win.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/etc/passwd'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%NETHOOD%/'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/express/lib/router/index.js:346:12)
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Failed to compile.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 131:35:  'qa' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 306:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 342:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 376:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 584:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+ERROR in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 131:35:  'qa' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 198:35:  'qa' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 306:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 342:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 376:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 584:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+ERROR in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 198:35:  'qa' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 306:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 342:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 376:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 584:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 306:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 342:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 376:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 584:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 304:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 343:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 377:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 585:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 304:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 343:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 377:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 585:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 304:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 340:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 374:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 582:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 304:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 340:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 374:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 582:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+Syntax error: Expected corresponding JSX closing tag for <Grid>. (683:8) (683:8)
+ERROR in ./src/Component/Bot/BotScreen.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/src/Component/Bot/BotScreen.js: Expected corresponding JSX closing tag for <Grid>. (683:8)
+
+  681 |           </Grid>
+  682 |         )}
+> 683 |         </div>
+      |         ^
+  684 |       </Grid>
+  685 |
+  686 |       <Dialog
+    at constructor (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:353:19)
+    at FlowParserMixin.raise (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:3277:19)
+    at FlowParserMixin.jsxParseElementAt (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:6782:16)
+    at FlowParserMixin.jsxParseElementAt (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:6753:32)
+    at FlowParserMixin.jsxParseElement (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:6804:17)
+    at FlowParserMixin.parseExprAtom (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:6816:19)
+    at FlowParserMixin.parseExprSubscripts (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10580:23)
+    at FlowParserMixin.parseUpdate (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10563:21)
+    at FlowParserMixin.parseMaybeUnary (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10541:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10395:61)
+    at FlowParserMixin.parseExprOps (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10400:23)
+    at FlowParserMixin.parseMaybeConditional (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10377:23)
+    at FlowParserMixin.parseMaybeAssign (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10338:21)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5635:39
+    at FlowParserMixin.tryParse (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:3608:20)
+    at FlowParserMixin.parseMaybeAssign (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5635:18)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10308:39
+    at FlowParserMixin.allowInAnd (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:11926:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10308:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:11189:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5728:18)
+    at FlowParserMixin.parseExprAtom (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10847:23)
+    at FlowParserMixin.parseExprAtom (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:6821:20)
+    at FlowParserMixin.parseExprSubscripts (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10580:23)
+    at FlowParserMixin.parseUpdate (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10563:21)
+    at FlowParserMixin.parseMaybeUnary (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10541:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10395:61)
+    at FlowParserMixin.parseExprOps (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10400:23)
+    at FlowParserMixin.parseMaybeConditional (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10377:23)
+    at FlowParserMixin.parseMaybeAssign (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10338:21)
+    at FlowParserMixin.parseMaybeAssign (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5686:18)
+    at FlowParserMixin.parseExpressionBase (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10292:23)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10288:39
+    at FlowParserMixin.allowInAnd (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:11921:16)
+    at FlowParserMixin.parseExpression (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:10288:17)
+    at FlowParserMixin.parseReturnStatement (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:12609:28)
+    at FlowParserMixin.parseStatementContent (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:12260:21)
+    at FlowParserMixin.parseStatementLike (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:12229:17)
+    at FlowParserMixin.parseStatementLike (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5055:24)
+    at FlowParserMixin.parseStatementListItem (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:12209:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:12786:61)
+    at FlowParserMixin.parseBlockBody (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:12779:10)
+    at FlowParserMixin.parseBlock (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:12767:10)
+    at FlowParserMixin.parseFunctionBody (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:11606:24)
+    at /home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5029:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5205:16)
+    at FlowParserMixin.parseFunctionBody (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5029:12)
+    at FlowParserMixin.parseArrowExpression (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:11581:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:11201:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/workspace/SQL-Project/frontend_utkarsh/vincent-chatbot-frontend/node_modules/@babel/parser/lib/index.js:5728:18)
+
+ERROR in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 683:8:  Parsing error: Expected corresponding JSX closing tag for <Grid>. (683:8)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 304:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 340:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 374:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 582:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Component/Bot/BotScreen.js
+  Line 2:10:    'Link' is defined but never used                           no-unused-vars
+  Line 3:8:     'axios' is defined but never used                          no-unused-vars
+  Line 6:3:     'InputAdornment' is defined but never used                 no-unused-vars
+  Line 17:3:    'Button' is defined but never used                         no-unused-vars
+  Line 22:3:    'Typography' is defined but never used                     no-unused-vars
+  Line 31:10:   'alpha' is defined but never used                          no-unused-vars
+  Line 31:17:   'styled' is defined but never used                         no-unused-vars
+  Line 33:8:    'SendIcon' is defined but never used                       no-unused-vars
+  Line 34:8:    'down' is defined but never used                           no-unused-vars
+  Line 35:8:    'uparrow' is defined but never used                        no-unused-vars
+  Line 36:8:    'reload' is defined but never used                         no-unused-vars
+  Line 37:8:    'DocUpload' is defined but never used                      no-unused-vars
+  Line 38:8:    'ShareChatBot' is defined but never used                   no-unused-vars
+  Line 40:8:    'logo' is defined but never used                           no-unused-vars
+  Line 41:8:    'customize' is defined but never used                      no-unused-vars
+  Line 42:8:    'shareChat' is defined but never used                      no-unused-vars
+  Line 43:8:    'plusBlack' is defined but never used                      no-unused-vars
+  Line 44:8:    'plusWhite' is defined but never used                      no-unused-vars
+  Line 45:8:    'Notification' is defined but never used                   no-unused-vars
+  Line 51:10:   'APIAI' is defined but never used                          no-unused-vars
+  Line 79:9:    'navigate' is assigned a value but never used              no-unused-vars
+  Line 80:10:   'alignment' is assigned a value but never used             no-unused-vars
+  Line 80:21:   'setAlignment' is assigned a value but never used          no-unused-vars
+  Line 82:10:   'answer' is assigned a value but never used                no-unused-vars
+  Line 83:10:   'questionLLM' is assigned a value but never used           no-unused-vars
+  Line 83:23:   'setQuestionLLM' is assigned a value but never used        no-unused-vars
+  Line 84:10:   'answerLLM' is assigned a value but never used             no-unused-vars
+  Line 84:21:   'setAnswerLLM' is assigned a value but never used          no-unused-vars
+  Line 86:10:   'showQuestionLLM' is assigned a value but never used       no-unused-vars
+  Line 86:27:   'setShowQuestionLLM' is assigned a value but never used    no-unused-vars
+  Line 87:10:   'alert' is assigned a value but never used                 no-unused-vars
+  Line 88:10:   'alertContent' is assigned a value but never used          no-unused-vars
+  Line 88:24:   'setAlertContent' is assigned a value but never used       no-unused-vars
+  Line 89:10:   'alertType' is assigned a value but never used             no-unused-vars
+  Line 89:21:   'setAlertType' is assigned a value but never used          no-unused-vars
+  Line 91:10:   'selectedValue' is assigned a value but never used         no-unused-vars
+  Line 91:25:   'setSelectedValue' is assigned a value but never used      no-unused-vars
+  Line 92:10:   'up' is assigned a value but never used                    no-unused-vars
+  Line 92:14:   'setUp' is assigned a value but never used                 no-unused-vars
+  Line 93:10:   'option' is assigned a value but never used                no-unused-vars
+  Line 93:18:   'setOption' is assigned a value but never used             no-unused-vars
+  Line 94:24:   'setSelectChatId' is assigned a value but never used       no-unused-vars
+  Line 95:10:   'update' is assigned a value but never used                no-unused-vars
+  Line 95:18:   'setUpdate' is assigned a value but never used             no-unused-vars
+  Line 96:10:   'indexNameForAI' is assigned a value but never used        no-unused-vars
+  Line 96:26:   'setIndexNameForAI' is assigned a value but never used     no-unused-vars
+  Line 100:9:   'handleAlert' is assigned a value but never used           no-unused-vars
+  Line 115:10:  'openModal' is assigned a value but never used             no-unused-vars
+  Line 117:9:   'handleClickOpenModal' is assigned a value but never used  no-unused-vars
+  Line 121:9:   'handleCloseModal' is assigned a value but never used      no-unused-vars
+  Line 125:10:  'openShare' is assigned a value but never used             no-unused-vars
+  Line 127:9:   'handleOpenShareModal' is assigned a value but never used  no-unused-vars
+  Line 304:29:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 340:35:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 374:37:  Duplicate key 'marginBottom'                               no-dupe-keys
+  Line 582:31:  Duplicate key 'marginBottom'                               no-dupe-keys
+
+webpack compiled with 1 warning
+Compiling...
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! chatbot@0.1.0 start: `export PORT=3008 && react-scripts start`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the chatbot@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-27T04_26_14_531Z-debug.log

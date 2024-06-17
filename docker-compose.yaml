@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  frontend-utkarsh:
+    restart: always
+    image:  registry.gitlab.com/sty_projects/gen-ai-poc/nlp-sql/vincent-chatbot-frontend/utkarsh-qa:1.2
+    container_name: vincent-chatbot-frontend-utkarsh
+    volumes:
+      - /home/ubuntu/workspace/utkarsh-sql/vincent-chatbot-frontend/.env.development:/app/.env.development
+      # - /home/ubuntu/workspace/vincent-chatbot-frontend/nginx.conf:/etc/nginx/conf.d/default.conf
+      # - /home/ubuntu/workspace/vincent-chatbot-frontend/.env.development:/app/.env.development
+    # # #   - /home/ubuntu/workspace/acengage_frontend:/app/
+      # - /home/ubuntu/workspace/SQL-Project/vincent-chatbot-frontend/nginx.conf:/etc/nginx/conf.d/default.conf
+      # - /home/ubuntu/workspace/acengage_backend/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    env_file:
+       - ./.env.development
+    ports:
+      - 3008:3008
+
+ 
