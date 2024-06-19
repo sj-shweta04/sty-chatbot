@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
 import { TextField, Box, Grid, IconButton, Collapse } from "@mui/material";
 import { Icon } from "@iconify/react";
 import Send from "@mui/icons-material/Send";
@@ -17,7 +16,6 @@ import MinimizeIcon from "@mui/icons-material/Minimize";
 
 const Content = styled("div")({
   background: "#f0f0f0",
-  //padding: '16px',
   borderRadius: "4px",
 });
 
@@ -41,69 +39,44 @@ const BotPractice = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [showQuestion, setShowQuestion] = useState("");
-  const [alert, setAlert] = useState(false);
   const [minimize, setMinimize] = useState(false);
   const [modal, setModal] = useState(false);
   const [minimizeGrid, setMinimizeGrid] = useState(true);
-  const [up, setUp] = useState(false);
-  const [option, setOption] = useState([]);
-  const [selectChatId, setSelectChatId] = useState("");
+  const [qaData, setQaData] = useState([]);
+  const [loading, setLoading] = useState(false);
   const [popupData, setPopupDataQuery] = useState("");
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectChatId, setSelectChatId] = useState("");
+  const [alert, setAlert] = useState(false);
+  const chatContainerRef = useRef(null);
 
-  // localStorage.setItem("selectChatId", selectChatId);
-  // const handleAlert = () => {
-  //   setAlert(false);
-  // };
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
+  useEffect(() => {
+    const storedChatMessages = localStorage.getItem("chatMessages");
+    if (storedChatMessages) {
+      setQaData(JSON.parse(storedChatMessages));
+    }
+  }, []);
+
 
   const handleMinimize = () => {
     setMinimize(!minimize);
   };
-
-  const [size, setSize] = useState({ width: 200, height: 200 }); // Initial size
-
-  // Function to handle resize event
-  // const handleResize = (event, direction, ref, delta) => {
-  //   // Update the size state with the new width and height
-  //   setSize({
-  //     width: ref.style.width ? parseFloat(ref.style.width) : size.width,
-  //     height: ref.style.height ? parseFloat(ref.style.height) : size.height,
-  //   });
-  // };
-
-  const [loading, setLoading] = useState(false);
-
-  // const [openModal, setOpenModal] = useState(false);
-
-  // const handleClickOpenModal = () => {
-  //   setOpenModal(true);
-  // };
-
-  // const handleCloseModal = () => {
-  //   setOpenModal(false);
-  // };
-
-  // const [openShare, setOpenShare] = useState(false);
-
-  // const handleOpenShareModal = () => {
-  //   setOpenShare(true);
-  // };
 
   const handlediscussion = () => {
     setLoading(true);
     setShowQuestion(question);
     setQuestion("");
     const payload = { question: question };
-    APIUSER.post("/get-question", payload)
-      // APIUSER.post("bot_query", payload)
+    APIUSER.post("/get_question", payload)
       .then((response) => {
-        // console.log("bot_query response", response);
-        console.log("data -- ", response.data);
         setShowQuestion("");
         if (response.data.query) {
           handleAddQa(response.data.answer);
         }
         if (response.data.answer === undefined) {
-          // setAnswer(response.data.response[0].response);
           // handleAddQa(response.data.response);
         } else {
           setAnswer(response.data.answer);
@@ -124,33 +97,14 @@ const BotPractice = () => {
     }
   };
 
-  const [qaData, setQaData] = useState([]);
-  console.log("qaData", qaData);
-
   const handleAddQa = (answerRes) => {
     const newQa = {
       question: question,
       answer: answerRes,
     };
     setQaData([...qaData, newQa]);
-    // setQuestion("");
+    setQuestion("");
   };
-
-  const chatContainerRef = useRef(null);
-
-  useEffect(() => {
-    // Scroll to the bottom of the chat window when qaData changes
-    if (chatContainerRef.current) {
-      chatContainerRef.current.scrollTop =
-        chatContainerRef.current.scrollHeight;
-    }
-  }, [qaData]);
-
-  // handle open and close for dialogbox
-  const [isOpen, setIsOpen] = useState(false);
-
-  // const theme = useTheme();
-  // const fullScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleDialog = () => {
     setIsOpen(!isOpen);
@@ -159,39 +113,35 @@ const BotPractice = () => {
   return (
     <>
       <div className="bgImage" style={{ width: "100%", height: "120vh" }}>
-        <Grid item s={12} md={6} lg={3}>
+        <Grid item xs={12} md={6} lg={3}>
           {minimize ? (
             <Grid
               container
-              s={12}
-              md={12}
-              lg={12}
               style={{
-                // marginTop: "1%",
                 position: "fixed",
-                right: "30px",
+                right: "25px",
                 display: "flex",
                 justifyContent: "end",
                 alignItems: "center",
-                marginTop: "200px",
+                marginTop: isMobile ? "10vh" : "20vh",
               }}
             >
               <Grid
                 item
-                xs={12}
-                md={4}
+                xs={4}
+                md={3}
                 lg={3}
                 style={{
                   height: "70%",
                   border: "1px solid #115E98",
-                  borderRadius: "10px",
+                  borderRadius: "5px",
                   marginTop: minimizeGrid ? "0px" : "25%",
                   width: "10%",
                 }}
               >
                 <Grid
                   item
-                  s={12}
+                  xs={12}
                   md={12}
                   lg={12}
                   style={{
@@ -201,11 +151,9 @@ const BotPractice = () => {
                     justifyContent: "space-between",
                     alignItems: "center",
                     padding: "5px",
-                    borderRadius: "10px 10px 0px 0px",
+                    borderRadius: "3px",
                   }}
                 >
-                  {/* --------------------------------------------------- */}
-
                   <div
                     style={{
                       backgroundColor: "#115E98",
@@ -270,15 +218,13 @@ const BotPractice = () => {
                     </IconButton>
                   </div>
                 </Grid>
-                <Grid item xs={12} md={12} lg={12}></Grid>
-                {/* addition of timeout ---  timeout={{ enter: 800, exit: 800 }} */}
                 <CustomCollapse
                   in={minimizeGrid}
                   timeout={{ enter: 800, exit: 800 }}
                 >
                   <Grid
                     item
-                    s={12}
+                    xs={12}
                     md={12}
                     lg={12}
                     style={{
@@ -287,8 +233,7 @@ const BotPractice = () => {
                       borderRadius: "0px 0px 10px 10px",
                     }}
                   >
-                    <Grid item s={12} md={12} lg={12}>
-                      {/* user input---------------- */}
+                    <Grid item xs={12} md={12} lg={12}>
                       <Grid item className="firstBox" ref={chatContainerRef}>
                         <Box>
                           <div
@@ -299,6 +244,7 @@ const BotPractice = () => {
                               alignItems: "center",
                               marginBottom: "20px",
                               marginTop: "20px",
+                              marginLeft: "4px",
                             }}
                           >
                             <img src={robo} alt="robo" height={35} width={35} />
@@ -310,6 +256,7 @@ const BotPractice = () => {
                                 border: "1px solid #d3d3d3",
                                 width: "80%",
                                 textAlign: "left",
+                                fontSize: "14px",
                               }}
                             >
                               <span>
@@ -320,7 +267,7 @@ const BotPractice = () => {
                           </div>
                           {qaData.map((qa, index) => {
                             return (
-                              <div>
+                              <div key={index}>
                                 <div
                                   style={{
                                     display: "flex",
@@ -342,21 +289,14 @@ const BotPractice = () => {
                                     style={{
                                       padding: "10px",
                                       borderRadius: "10px 10px 10px 10px",
-                                      marginLeft: "10px",
+                                      marginLeft: "14px",
                                       textAlign: "left",
                                       border: "1px solid #d3d3d3",
                                       width: "82%",
                                       fontSize: "14px",
                                     }}
                                   >
-                                    <span
-                                      style={{
-                                        paddingLeft: 5,
-                                        paddingRight: 5,
-                                      }}
-                                    >
-                                      {qa.question}
-                                    </span>
+                                    <span>{qa.question}</span>
                                   </div>
                                 </div>
                                 {qa.answer && (

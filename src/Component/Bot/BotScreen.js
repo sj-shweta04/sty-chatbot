@@ -14,6 +14,7 @@ import { APIUSER } from "../../E2E/axios.util";
 import Modal from "../Modal";
 import LoadingDots from "../Loading/LoadingDots";
 import MinimizeIcon from "@mui/icons-material/Minimize";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
 const Content = styled("div")({
@@ -21,7 +22,7 @@ const Content = styled("div")({
   //padding: '16px',
   borderRadius: "4px",
 });
-console.log(localStorage);
+// console.log(localStorage);
 const CustomCollapse = ({ in: inProp, children }) => {
   return (
     <Collapse
@@ -51,10 +52,6 @@ const BotScreen = () => {
   const [selectChatId, setSelectChatId] = useState("");
   const [popupData, setPopupDataQuery] = useState("");
 
-  // localStorage.setItem("selectChatId", selectChatId);
-  // const handleAlert = () => {
-  //   setAlert(false);
-  // };
 
   const handleMinimize = () => {
     setMinimize(!minimize);
@@ -65,32 +62,9 @@ const BotScreen = () => {
   
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  // Function to handle resize event
-  // const handleResize = (event, direction, ref, delta) => {
-  //   // Update the size state with the new width and height
-  //   setSize({
-  //     width: ref.style.width ? parseFloat(ref.style.width) : size.width,
-  //     height: ref.style.height ? parseFloat(ref.style.height) : size.height,
-  //   });
-  // };
+
 
   const [loading, setLoading] = useState(false);
-
-  // const [openModal, setOpenModal] = useState(false);
-
-  // const handleClickOpenModal = () => {
-  //   setOpenModal(true);
-  // };
-
-  // const handleCloseModal = () => {
-  //   setOpenModal(false);
-  // };
-
-  // const [openShare, setOpenShare] = useState(false);
-
-  // const handleOpenShareModal = () => {
-  //   setOpenShare(true);
-  // };
 
   const handlediscussion = () => {
     setLoading(true);
@@ -99,7 +73,7 @@ const BotScreen = () => {
     const payload = { question: question };
     APIUSER.post("/get_question", payload)
       .then((response) => {
-        console.log("data -- ", response.data);
+        // console.log("data -- ", response.data);
         setShowQuestion("");
         if (response.data.query) {
           handleAddQa(response.data.answer);
@@ -126,8 +100,14 @@ const BotScreen = () => {
     }
   };
 
+  const handlePaste = (e) => {
+    e.preventDefault();
+  };
+
+ 
+
   const [qaData, setQaData] = useState([]);
-  console.log("qaData", qaData);
+  
 
   const handleAddQa = (answerRes) => {
     const newQa = {
@@ -141,22 +121,22 @@ const BotScreen = () => {
   const chatContainerRef = useRef(null);
 
   useEffect(() => {
-    // Scroll to the bottom of the chat window when qaData changes
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTop =
         chatContainerRef.current.scrollHeight;
     }
   }, [qaData]);
 
-  // handle open and close for dialogbox
   const [isOpen, setIsOpen] = useState(false);
 
-  // const theme = useTheme();
-  // const fullScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleDialog = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    localStorage.setItem("qaData", JSON.stringify(qaData));
+  }, [qaData]);
 
   return (
     <>
@@ -165,9 +145,6 @@ const BotScreen = () => {
           {minimize ? (
             <Grid
               container
-              xs={12}
-              md={12}
-              lg={12}
               style={{
                 // marginTop: "1%",
                 position: "fixed",
@@ -338,12 +315,9 @@ const BotScreen = () => {
                                     marginLeft: "12px",
                                   }}
                                 >
-                                  <img
-                                    src={user}
-                                    alt="user"
-                                    height={25}
-                                    width={25}
-                                  />
+                                  <AccountCircleIcon
+                          sx={{ color: "white", marginBottom: "15px" }}
+                        />
                                   <div
                                     style={{
                                       padding: "10px",
@@ -448,12 +422,9 @@ const BotScreen = () => {
                                 position: "sticky",
                               }}
                             >
-                              <img
-                                src={user}
-                                alt="user"
-                                height={25}
-                                width={25}
-                              />
+                              <AccountCircleIcon fontSize="medium"
+                          sx={{ color: "#115E98",}}
+                        />
                               <div
                                 style={{
                                   padding: "10px",
@@ -539,7 +510,9 @@ const BotScreen = () => {
                             placeholder="Type your message..."
                             onChange={(e) => setQuestion(e.target.value)}
                             value={question}
+                            inputProps={{ maxLength: 100 }}
                             onKeyDown={handleKeyPress}
+                            // onPaste={handlePaste}
                             size="small"
                             autoComplete="off" // Disables the browser's autocomplete
                           />
